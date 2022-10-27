@@ -19,6 +19,10 @@ __decorate([
     __metadata("design:type", String)
 ], CreateEventDto.prototype, "name", void 0);
 __decorate([
+    (0, swagger_1.ApiProperty)(),
+    __metadata("design:type", String)
+], CreateEventDto.prototype, "image", void 0);
+__decorate([
     (0, swagger_1.ApiPropertyOptional)(),
     __metadata("design:type", String)
 ], CreateEventDto.prototype, "discription", void 0);

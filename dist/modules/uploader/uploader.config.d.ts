@@ -1,4 +1,3 @@
-/// <reference types="multer" />
 import { MulterOptionsFactory } from "@nestjs/platform-express";
 import { MulterOptions } from "@nestjs/platform-express/multer/interfaces/multer-options.interface";
 export declare class MulterOptionConfig implements MulterOptionsFactory {

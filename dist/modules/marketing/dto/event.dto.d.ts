@@ -1,6 +1,7 @@
 import { PageRequest } from "src/core/pagination";
 export declare class CreateEventDto {
     name?: string;
+    image: string;
     discription?: string;
     date: Date;
 }
