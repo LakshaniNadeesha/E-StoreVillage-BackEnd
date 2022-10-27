@@ -5,10 +5,13 @@ export class CreateEventDto {
   @ApiProperty()
   name?: string;
 
+<<<<<<< HEAD
   @ApiProperty()
   image: string;
 
 
+=======
+>>>>>>> 82a35c3fab1e1139f3c5b8ccf6746be7a029286d
   @ApiPropertyOptional()
   discription?: string;
 
